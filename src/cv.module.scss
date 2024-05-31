@@ -1,0 +1,196 @@
+.pageHeaderBackground {
+  background-color: #2a8757;
+  color: #fafafa;
+  padding: 2rem 0px 1rem;
+  @media print {
+    padding: 0px;
+  }
+  display: flex;
+  justify-content: center;
+  @media print {
+    flex-direction: column;
+  }
+
+  .pageHeader {
+    flex-grow: 1;
+    max-width: 900px;
+    display: flex;
+    flex-direction: row;
+    margin: 0px 1.5rem;
+    justify-content: space-between;
+
+    @media only screen and (max-width: 900px) {
+      flex-direction: column;
+    }
+
+    .cardLeft {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      text-align: center;
+      margin-bottom: 1rem;
+
+      .profileImage {
+        height: 12.5rem;
+        width: 12.5rem;
+        border-radius: 50%;
+        margin: 0px auto;
+      }
+    
+      .profileName {
+        text-align: center;
+        font-size: 2rem;
+      }
+
+      .title {
+        margin-top: 0.5rem;
+        font-size: 1rem;
+      }
+
+      .location {
+        margin-top: 0.5rem;
+        font-size: 0.75rem;
+      }
+    }
+    
+    .cardRight {
+      max-width: 650px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      margin-left: 1rem;
+    
+      .content {
+        font-size: 1rem;
+        text-align: justify;
+        white-space: pre-line;
+      }
+      
+      .profileLinks {
+        margin-top: 0.5rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        @media print, only screen and (max-width: 900px) {
+          flex-direction: column;
+        }
+    
+        .profileLink {
+          margin: 0.25rem;
+          text-wrap: nowrap;
+          width: 12rem;
+          background-color: #216944;
+          border: 2px solid #184d32;
+          padding: 0.25rem 0.5rem;
+          border-radius: 0.25rem;
+          color: #fafafa;
+          display: flex;
+          align-items: center;
+          text-overflow: ellipsis;
+          overflow: hidden;
+    
+          .img {
+            height: 1.5rem;
+            width: 1.5rem;
+          }
+          
+          .type {
+            font-size: 0.625rem;
+            padding-left: 0.5rem;
+            text-decoration: none !important;
+          }
+          
+          .name {
+            font-size: 0.75rem;
+            padding-left: 0.5rem;
+          }
+        }
+      }
+    }
+  }
+}
+
+.pageBackground {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  .pageContainer {
+    max-width: 900px;
+    margin: 0px 1.5rem;
+    
+    .section {
+      margin: 1.5rem 0px;
+
+      .sectionHeader {
+        margin: 1.25rem 0px;
+        padding: 0.5rem 0rem;
+        border-top: 3px solid #2a8757;
+        border-bottom: 3px solid #2a8757;
+        font-size: 1.5rem;
+        font-weight: 500;
+        break-inside: avoid;
+      }
+
+      .sectionContent {
+        break-inside: avoid;
+
+        .title {
+          font-size: 1.5rem;
+          margin-top: 1rem;
+        }
+
+        .subtitle {
+          margin: 0.25rem 0px;
+          display: flex;
+          justify-content: space-between;
+
+          .subitemLeft {
+            font-weight: 700;
+            font-size: 1.125rem;
+          }
+
+          .subitemRight {
+            font-weight: 700;
+            font-size: 1.125rem;
+            text-align: right;
+          }
+        }
+
+        .content {
+          font-size: 1rem;
+          text-align: justify;
+        }
+      }
+
+      .sectionColumnContainer {
+        columns: 3;
+        column-gap: 1rem;
+
+        @media only screen and (max-width: 900px) {
+          columns: 1;
+        }
+      }
+
+      .skillContainer {
+        margin-bottom: 0.5rem;
+        display: flex;
+        align-items: baseline;
+        justify-content: space-between;
+
+        .filler {
+          border-bottom: 1px dotted #c9c9c9;
+          flex-grow: 1;
+          margin: 0px 5px;
+        }
+
+        .skillDots {
+          width: 5rem;
+          display: flex;
+          justify-content: space-between;
+        }
+      }
+    }
+  }
+}

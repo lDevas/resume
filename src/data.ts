@@ -56,13 +56,19 @@ export const experiences: Experience[] = [
     client: 'Qubika',
     role: 'Lead Software Engineer',
     timeframe: 'Feb, 2017 - Present',
-    description: 'I am responsible for leading a team of developers and initiating new projects from within the company. I collaborate with cross-functional teams to gather requirements, design and implement software solutions, as well as support internal processes like technical interviews, mentoring, onboardings and trainings.',
+    description: 'I am responsible for leading teams of developers and initiating new projects from within the company. I collaborate with cross-functional teams to gather requirements, design and implement software solutions, as well as support internal processes like technical interviews, mentoring, onboardings and trainings. Through Qubika, I\'ve established long lasting relationships with other companies.',
+  },
+  {
+    client: 'Lakeview',
+    role: 'Software Engineer', 
+    timeframe: 'Aug, 2024 - Present',
+    description: 'Recently I joined as a frontend engineer for Lakeview, a fast moving startup in an extremely competitive environment.',
   },
   {
     client: 'Hulu / Disney Streaming, Data Portal',
     role: 'Software Engineer', 
-    timeframe: 'Jun, 2023 - Present',
-    description: 'At Data my responsability is to lead a small team that maintains a solution that allows users to quickly load reports from different BI tools. While working on this team, I partnered with other engineers, managers, designers and product managers in order to improve the experience of the end user.',
+    timeframe: 'Jun, 2023 - Jul, 2024',
+    description: 'My responsability was to lead a small team that maintained a solution that allows users to quickly load reports from different BI tools. While working on this team, I partnered with other engineers, managers, designers and product managers in order to improve the experience for the end user.',
   },
   {
     client: 'Hulu / Disney Streaming, Instrumentation',

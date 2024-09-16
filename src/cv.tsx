@@ -1,4 +1,4 @@
-import profile from './assets/profile.jpg';
+import profile from './assets/profile.png';
 import emptyDot from './assets/emptyDot.svg';
 import filledDot from './assets/filledDot.svg';
 import type { Education, Experience, Skill } from './data'

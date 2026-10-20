@@ -53,15 +53,21 @@ export interface Experience {
 
 export const experiences: Experience[] = [
   {
+    client: 'Franzy',
+    role: 'Software Engineer',
+    timeframe: 'Jan, 2025 - Present',
+    description: 'Working as a Software Engineer at Franzy, contributing to software development and delivery of high-quality solutions.',
+  },
+  {
     client: 'Qubika',
     role: 'Lead Software Engineer',
-    timeframe: 'Feb, 2017 - Present',
+    timeframe: 'Feb, 2017 - Jan, 2025',
     description: 'I am responsible for leading teams of developers and initiating new projects from within the company. I collaborate with cross-functional teams to gather requirements, design and implement software solutions, as well as support internal processes like technical interviews, mentoring, onboardings and trainings. Through Qubika, I\'ve established long lasting relationships with other companies.',
   },
   {
     client: 'Lakeview',
     role: 'Software Engineer', 
-    timeframe: 'Aug, 2024 - Present',
+    timeframe: 'Aug, 2024 - Jan, 2025',
     description: 'Recently I joined as a frontend engineer for Lakeview, a fast moving startup in an extremely competitive environment.',
   },
   {
